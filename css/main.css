@@ -426,7 +426,7 @@ textarea {
   padding-top: 40px;
   color: #e86501;
   overflow-x: hidden;
-  border-right: 5px solid #e86501;
+  border-right: 5px solid greenyellow;
 }
 
 .toggle-nav ul {

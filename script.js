@@ -9,9 +9,9 @@ hamburgerBtn.addEventListener('click', ()=>{
     <ion-icon name="close-outline"></ion-icon>
   </span>
   <ul>
-    <li id="portf-mob-nav">Portfolio</li>
-    <li id="ab-mob-nav">About</li>
-    <li id="cont-mob-nav">Contact</li>
+  <li id="ab-mob-nav">About</li>
+  <li id="cont-mob-nav">Contact</li>
+  <li id="portf-mob-nav">Portfolio</li>
   </ul>
 </div>
   `;
@@ -26,7 +26,7 @@ hamburgerBtn.addEventListener('click', ()=>{
   menuDiv.style.display = 'block';
 
   closeIcon.addEventListener('click', () => {
-    menuDiv.style.display = 'none';
+    menuDiv.style.display = 'non';
   });
 
   menuPortfolio.addEventListener('click', () => {
@@ -36,7 +36,7 @@ hamburgerBtn.addEventListener('click', ()=>{
 
   menuAbout.addEventListener('click', () => {
     menuDiv.style.display = 'none';
-    document.location = '#about-me';
+    document.location = '#about-m';
   });
 
   menuContact.addEventListener('click', () => {
