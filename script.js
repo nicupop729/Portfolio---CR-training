@@ -28,19 +28,4 @@ hamburgerBtn.addEventListener('click', ()=>{
   closeIcon.addEventListener('click', () => {
     menuDiv.style.display = 'none';
   });
-
-  menuPortfolio.addEventListener('click', () => {
-    menuDiv.style.display = 'none';
-    document.location = '#portfolio';
-  });
-
-  menuAbout.addEventListener('click', () => {
-    menuDiv.style.display = 'none';
-    document.location = '#about';
-  });
-
-  menuContact.addEventListener('click', () => {
-    menuDiv.style.display = 'none';
-    document.location = '#contact';
-  });
 })
