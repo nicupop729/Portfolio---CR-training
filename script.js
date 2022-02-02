@@ -1,6 +1,6 @@
 const hamburgerBtn = document.querySelector('.hamburger-btn');
 
-hamburgerBtn.addEventListener('click', ()=>{
+hamburgerBtn.addEventListener('click', () => {
   const textHTML = `
   <div
   class="toggle-nav"
@@ -43,4 +43,4 @@ hamburgerBtn.addEventListener('click', ()=>{
     menuDiv.style.display = 'none';
     document.location = '#contact';
   });
-})
+});

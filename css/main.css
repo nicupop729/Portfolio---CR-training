@@ -27,7 +27,17 @@ header {
   color: white;
 }
 
-#desktop-nav, #desktop-nav ul {
+.toggle-nav ul {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 20%;
+  padding-left: 5%;
+  margin-top: 10%;
+}
+
+#desktop-nav,
+#desktop-nav ul {
   display: none;
 }
 
@@ -278,6 +288,14 @@ li {
   cursor: pointer;
 }
 
+.toggle-nav ul li {
+  color: #e86501;
+  height: 24px;
+  font-size: 32px;
+  line-height: 44px;
+  cursor: pointer;
+}
+
 .project-stacks li:hover {
   background: rgba(0, 0, 0, 0.349);
 }
@@ -427,23 +445,6 @@ textarea {
   color: #e86501;
   overflow-x: hidden;
   border-right: 5px solid greenyellow;
-}
-
-.toggle-nav ul {
-  display: flex;
-  flex-direction: column;
-  justify-content: space-between;
-  height: 20%;
-  padding-left: 5%;
-  margin-top: 10%;
-}
-
-.toggle-nav ul li {
-  color: #e86501;
-  height: 24px;
-  font-size: 32px;
-  line-height: 44px;
-  cursor: pointer;
 }
 
 #close-icon-id {
